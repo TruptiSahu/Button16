@@ -5,7 +5,7 @@
 }
 
 :root {
-  --background-color: #6D214F;
+  --background-color: #6d214f;
   --accent1-color: #c32c71;
   --accent2-color: #b33771;
 }
@@ -23,9 +23,11 @@ body {
 .btn {
   text-decoration: none;
   color: #fff;
-  background: linear-gradient(-20deg,
-      var(--accent1-color) 0% 50%,
-      var(--accent2-color) 50% 100%);
+  background: linear-gradient(
+    -20deg,
+    var(--accent1-color) 0% 50%,
+    var(--accent2-color) 50% 100%
+  );
   font-size: 30px;
   padding: 20px 30px;
   position: relative;
@@ -40,7 +42,7 @@ body {
 
 .btn span {
   position: absolute;
-  content: "";
+  content: '';
 }
 
 .btn span:nth-of-type(1) {
@@ -82,6 +84,8 @@ body {
   transform: translateY(100%);
   animation: anime4 2s linear infinite 3s;
 }
+
+/* -------------------------------- Animation ------------------------------- */
 
 @keyframes anime1 {
   100% {
